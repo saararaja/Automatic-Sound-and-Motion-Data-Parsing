@@ -1,23 +1,15 @@
 % ALS Phrase Parsing Function:
 %
-%
-%Purpose:
+%PURPOSE:
 %
 % This function will be used to automatically parse ALS audio and motion 
 % data into individual phrases.
-%
-% The Patient says 20 Phrases in each sound bite; these phrases need to be
-% separated by putting tags at the beginning and end of each phrase. The 
-% audio and motion data will then be extracted from between each pair of
-% tags (example of extractable information: tongue range, average speed of
-% speech, average acceleration of speech).
 %
 %DISCLAIMER: The following version of this program loads sample data only.
 %Actual data is confidential and owned by the University of Texas at
 %Dallas.
 %
-%Instructions:
-%
+%INSTRUCTIONS:
 %Step One:
 %Type ALSPhraseParsing in the interactive MATLAB Workspace to activate the
 %program.
@@ -26,7 +18,6 @@
 % the parsing process by clicking 'Begin Tagging'. Each pair of tags will 
 %have to be accepted by you before proceeding to the next pair. After all
 %tagging is finished, the data will be extracted.
-
 
 
 function [] = ALSPhraseParsing ()
