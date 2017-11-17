@@ -21,27 +21,11 @@
 %Step One:
 %Type ALSPhraseParsing in the interactive MATLAB Workspace to activate the
 %program.
-
-% Load the following variables into the function:
-%
-% motionfile = load the motion file in .csv format for the patient
-%               of interest. Put in single quotes.
-% audiofile = load the audio file in .wav format for the patient of
-%               interest. Put in single quotes.
-% S1 - S6: label what Sensors 1-6 are. This differs for each and every
-% patient and session, so this will have to be manually inputted. Type in
-% capital letters and single quotes, the two letter abbreviation for the 
-%sensor type.  These are the possible choices:
-%       UL (Upper Lip), LL (Lower Lip), TT (Tongue Tip), TB (Tongue Back),
-%       JL (Jaw Left), JR (Jaw Right).
-%
 %Step Two:
 % You can play the audio by clicking the 'Play Audio' button. You can begin
 % the parsing process by clicking 'Begin Tagging'. Each pair of tags will 
 %have to be accepted by you before proceeding to the next pair. After all
 %tagging is finished, the data will be extracted.
-
-
 
 
 
